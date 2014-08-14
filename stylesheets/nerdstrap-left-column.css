@@ -1,0 +1,12 @@
+#left-column {
+  float: left;
+  width: 160px;
+  background-color: #1c1c1c;
+  color: #e6e6e6;
+  font-size: 16px;
+  margin-right: 32px;
+}
+#left-column h1 {
+  color: #e2e2e2;
+  border-bottom: 1px solid #444;
+}
