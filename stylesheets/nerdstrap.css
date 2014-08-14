@@ -19,6 +19,13 @@ h1 {
   color: #3d3d3d;
   font-size: 220%;
 }
+h2 {
+  color: #464646;
+}
+h3 {
+  color: #4c4c4c;
+  font-size: 120%;
+}
 ul {
   margin: 0;
 }
