@@ -12,6 +12,7 @@ div {
   margin: 0;
 }
 .container {
+  float: left;
   height: 100%;
 }
 h1 {
@@ -34,4 +35,7 @@ footer {
   margin-top: 60px;
   padding: 20px;
   border-top: 1px solid #ccc;
+}
+.clearfix {
+  clear: both;
 }
