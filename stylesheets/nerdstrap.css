@@ -2,6 +2,10 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ƒqƒ‰ƒMƒmŠpƒS ProN W3', Meiryo, ƒƒCƒŠƒI, sans-serif;
+  color: #333;
+  font-size: 18px;
+  background-color: #f2f2f2
 }
 div {
   padding: 0;
@@ -9,4 +13,9 @@ div {
 }
 .container {
   height: 100%;
+}
+h1 {
+  margin: 0px;
+  color: #464646;
+  font-size: 220%;
 }
