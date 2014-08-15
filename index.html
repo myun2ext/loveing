@@ -4,8 +4,8 @@
  <title>Nerd-strap Example Template.</title>
  <link rel="stylesheet" type="text/css" href="./stylesheets/nerdstrap.css">
 <head>
-<body>
-<div class="container">
+<body onload="window.setTimeout(function (){ document.getElementsByTagName('body').item(0).setAttribute('class', document.getElementsByTagName('body').item(0).getAttribute('class') + ' onloaded')}, 10)">
+<div  class="appear">
  <h1>Nerd-strap</h1>
 
  <ul>
@@ -16,7 +16,6 @@
 
  <h2>Are you Nerd?</h2>
  <h3>Yes, I'm Nerd!</h3>
-</div>
 <footer>
  Nerdstrap for anything and everybody.
 </footer>

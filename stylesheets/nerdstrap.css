@@ -39,3 +39,14 @@ footer {
 .clearfix {
   clear: both;
 }
+body.onloaded .appear {
+  opacity: 1;
+  transition-delay: 0.05s;
+  transition-duration: 0.8s;
+  visibility: visible;
+  margin-top: 0px;
+}
+.appear {
+  opacity: 0;
+  margin-top: -100px;
+}
